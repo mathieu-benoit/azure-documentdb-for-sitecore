@@ -6,3 +6,8 @@ This sample consists on 3 files you need to adapt and embed into your project:
 - AzureDocumentDbForSitecore\UpdateMongoDriverSettingsProcessor.cs
 - App_Config\Include\UpdateMongoDriverSettingsProcessor.config
 - Example of the MongoDB connection strings with App_Config\ConnectionStrings.DocumentDb.config
+
+Current versions used:
+- Sitecore 8.2.160729
+- MongoDB driver 1.10.0.62
+
