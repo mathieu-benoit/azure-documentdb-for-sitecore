@@ -11,8 +11,7 @@ namespace AzureDocumentDBForSitecore
                 && !string.IsNullOrEmpty(args.MongoSettings.Server.Host)
                 && args.MongoSettings.Server.Host.EndsWith(".documents.azure.com"))
             {
-                args.MongoSettings.SslSettings = new MongoDB.Driver.SslSettings();
-                args.MongoSettings.SslSettings.EnabledSslProtocols = SslProtocols.Tls12;
+                args.MongoSettings.SslSettings = new MongoDB.Driver.SslSettings { EnabledSslProtocols = SslProtocols.Tls12 };
             }
         }
     }
