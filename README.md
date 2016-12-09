@@ -17,6 +17,12 @@ Current versions used:
 
 If you have an Azure Account you could also use the following button to use the Azure Template Deployment tool (this will just create the Azure services but won't deploy the web project):
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmathieu-benoit%2Fazure-documentdb-for-sitecore%2Fmaster%2FAzureDocumentDbForSitecoreAzureResourceGroup%2FDocumentDbTemplateFile.json" target="_">![Deploy to Azure](http://azuredeploy.net/deploybutton.png)</a> 
+Via portal.azure.com
+
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmathieu-benoit%2Fazure-documentdb-for-sitecore%2Fmaster%2FAzureDocumentDbForSitecoreAzureResourceGroup%2FDocumentDbTemplateFile.json" target="_blank">![Deploy to Azure](http://azuredeploy.net/deploybutton.png)</a>
+
+Via deploy.azure.com
+
+<a href="https://azuredeploy.net/" target="_blank">[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)]</a>
 
 
